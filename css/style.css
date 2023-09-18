@@ -91,6 +91,7 @@ a:focus {
 
 /*header section*/
 .hero_area {
+  background-color: #23694F;
   position: relative;
   min-height: 100vh;
   display: -webkit-box;
@@ -176,7 +177,7 @@ a:focus {
 }
 
 .custom_nav-container .navbar-nav .nav-item:hover .nav-link, .custom_nav-container .navbar-nav .nav-item.active .nav-link {
-  color: #ffbe33;
+  color: #f4c633;
 }
 
 .custom_nav-container .nav_search-btn {
@@ -189,7 +190,7 @@ a:focus {
 }
 
 .custom_nav-container .nav_search-btn:hover {
-  color: #ffbe33;
+  color: #f4c633;
 }
 
 .user_option {
@@ -239,7 +240,7 @@ a:focus {
 .user_option .order_online {
   display: inline-block;
   padding: 8px 30px;
-  background-color: #ffbe33;
+  background-color: #f4c633;
   color: #ffffff;
   border-radius: 45px;
   -webkit-transition: all 0.3s;
@@ -248,7 +249,7 @@ a:focus {
 }
 
 .user_option .order_online:hover {
-  background-color: #e69c00;
+  background-color: #f4c633;
 }
 
 .custom_nav-container .navbar-toggler {
@@ -364,7 +365,7 @@ a:focus {
 }
 
 .slider_section .detail-box a:hover {
-  background-color: #e69c00;
+  background-color: #f4c633;
 }
 
 .slider_section .img-box img {
@@ -411,7 +412,7 @@ a:focus {
   margin-top: 45px;
   border-radius: 5px;
   padding: 20px 15px;
-  background-color: #222831;
+  background-color: #23694F;
   color: #ffffff;
 }
 
@@ -428,6 +429,18 @@ a:focus {
   overflow: hidden;
 }
 
+.img-box{
+  width: 175px;
+  min-width: 175px;
+  height: 175px;
+  margin-right: 15px;
+  position: relative;
+  -webkit-transition: all 0.1 0.5s;
+  transition: all 0.1 0.5s;
+  border-radius: 100%;
+  border: 5px solid #ffbe33;
+  overflow: hidden;
+}
 .offer_section .box .img-box img {
   width: 100%;
   -webkit-transition: all .2s;
@@ -462,7 +475,7 @@ a:focus {
 }
 
 .offer_section .box .detail-box a:hover {
-  background-color: #e69c00;
+  background-color: #f4c633;
 }
 
 .offer_section .box .detail-box a svg {
@@ -498,7 +511,7 @@ a:focus {
 }
 
 .food_section .filters_menu li.active {
-  background-color: #222831;
+  background-color: #23694F;
   color: #ffffff;
 }
 
@@ -510,7 +523,7 @@ a:focus {
   color: #ffffff;
   border-radius: 15px;
   overflow: hidden;
-  background: linear-gradient(to bottom, #f1f2f3 25px, #222831 25px);
+  background: linear-gradient(to bottom, #f1f2f3 25px, #23694F 25px);
 }
 
 .food_section .box .img-box {
@@ -611,11 +624,11 @@ a:focus {
 }
 
 .food_section .btn-box a:hover {
-  background-color: #e69c00;
+  background-color: #f4c633;
 }
 
 .about_section {
-  background: #222831;
+  background: #23694F;
   color: #ffffff;
 }
 
@@ -659,7 +672,7 @@ a:focus {
 }
 
 .about_section .detail-box a:hover {
-  background-color: #e69c00;
+  background-color: #f4c633;
 }
 
 .book_section {
@@ -720,7 +733,7 @@ a:focus {
 }
 
 .book_section .form_container button:hover {
-  background-color: #e69c00;
+  background-color: #f4c633;
 }
 
 .book_section .map_container {
@@ -787,7 +800,7 @@ a:focus {
 }
 
 .client_section .box .detail-box {
-  background-color: #222831;
+  background-color: #23694F;
   color: #ffffff;
   padding: 25px 25px 15px 25px;
   border-radius: 5px;
@@ -895,12 +908,12 @@ a:focus {
 }
 
 .contact_section .form_container button:hover {
-  background-color: #e69c00;
+  background-color: #f4c633;
 }
 
 /* footer section*/
 .footer_section {
-  background-color: #222831;
+  background-color: #23694F;
   color: #ffffff;
   padding: 75px 0 40px 0;
   text-align: center;
@@ -977,7 +990,7 @@ a:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #222831;
+  color: #23694F;
   width: 30px;
   height: 30px;
   border-radius: 100%;
