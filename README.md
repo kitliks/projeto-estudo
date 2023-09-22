@@ -12,5 +12,6 @@ pdf cardápio: https://drive.google.com/file/d/14FINXSU4adXffqF7QQ643tEMWUH-6Lc1
 goomer: https://curumim-forno-e-caf.goomer.app/menu
 email: cafecurumim@gmail.com
 
+paleta de cores como na imagem: #d5c5a9, #6a9291, #ea934c, #bf3d1e, #8d3030, #192b1c
 
 site de referência em Brasília: https://ernestocafesespeciais.com.br
