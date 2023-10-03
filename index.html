@@ -12,7 +12,10 @@
   <meta name="description" content="cafeteria" />
   <meta name="author" content="" />
   <link rel="shortcut icon" href="images/favicon.jpg" type="">
-
+  <!--link swipers css-->
+  <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+  <!--css-->
+  <link rel="stylesheet" href="css/style.css" />
 
   <title> Curumim Forno & café </title>
 
@@ -34,19 +37,17 @@
   <link href="css/style.css" rel="stylesheet" />
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
-
+  <!-- slide show -->
+  <link href="css/slide.scss" rel="stylesheet" />
 </head>
 
 <body>
-
   <div class="hero_area">
     <div class="bg-box">
        <!-- <img src="images/foto_frente1.jpg" alt=""> -->
-      
     </div>
 
     <!-- header section strats -->
-
     <header class="header_section">
       <div class="container">
         <nav class="navbar navbar-expand-lg custom_nav-container ">
@@ -55,12 +56,10 @@
               Curumim
             </span>
           </a>
-
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class=""> </span>
           </button>
-
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav  mx-auto ">
               <li class="nav-item active">
@@ -76,7 +75,6 @@
                 <a class="nav-link" href="book.html">Encomendas</a>
               </li>
             </ul>
-
             <div class="user_option">
               <!--<a href="" class="user_link">
                 <i class="fa fa-user" aria-hidden="true"></i>
@@ -147,109 +145,71 @@
           </div>
         </nav>
       </div>
-
-
     </header>
     <!-- end header section -->
     
     <!-- slider section -->
-    <section class="slider_section ">
-      <div id="customCarousel1" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="container ">
-              <div class="row">
-                <div class="col-md-7 col-lg-6 ">
-                  <div class="detail-box">
-                    <img class="img-carrossel" src="images/foto_frente2.jpg">
-                    <!-- <h1>
-                      Sábado de Rabada Curumim
-                    </h1>
-                    <p>
-                      Rabada da casa selada no forno a lenha e cozida lentamente com agrião acompanha arroz branco,
-                      agrião inteiro grelhado com alho frito e farofa da casa. Serve 2 pessoas.
-                    </p>
-                    <div class="img-box">
-                      <img src="images/rabada.png">
-                    </div>-->
-                    <div class="btn-box">
-                      <!-- <a href="https://curumim-forno-e-caf.goomer.app/detail/9969921" target="_blank" class="btn1">
-                        Peça agora 
-                      </a>-->
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item ">
-            <div class="container ">
-              <div class="row">
-                <div class="col-md-7 col-lg-6 ">
-                  <div class="detail-box">
-                    <img class="img-carrossel" src="images/foto_frente7.jpg">
-                    <!-- <h1>
-                      Domingo de Costelinha a Pururuca Curumim
-                    </h1>
-                    <p>
-                      Costelinha marinada com caldo de cana e limão assada lentamente em baixa temperatura e purucada
-                      acompanha tutu bêbado de feijão vermelho, banana a milanesa, couve com alho frito e ovo. Serve 2
-                      pessoas.
-                    <div class="img-box">
-                      <img src="images/costelinha.png">
-                    </div> -->
-                    <div class="btn-box">
-                      <!-- <a href="https://curumim-forno-e-caf.goomer.app/detail/9969924" target="_blank" class="btn1">
-                        Peça agora
-                      </a>-->
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item ">
-            <div class="container ">
-              <div class="row">
-                <div class="col-md-7 col-lg-6 ">
-                  <div class="detail-box">
-                    <img class="img-carrossel" src="images/foto_frente4.jpg">
-                    <!--<h1>
-                      Chocolate quente cremoso com marshmellow
-                    </h1>
-                    <p>
-                      Nosso chocolate quente cremoso é uma mistura divina de chocolate rico e leite fresco, aquecido até
-                      a perfeição. Adoce seu dia com uma camada de marshmallows fofos que derretem lentamente, criando
-                      uma experiência de conforto e indulgência.
-                    <div class="img-box">
-                      <img src="images/chocolate-quente.png">
-                    </div>-->
-                    <div class="btn-box">
-                      <!--<a href="https://curumim-forno-e-caf.goomer.app/detail/9312691" target="_blank" class="btn1">
-                        Peça agora
-                      </a>-->
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+    <section class="main swiper mySwiper">
+      <div class="wrapper swiper-wrapper">
+        <div class="slide swiper-slide">
+          <image src="images/foto_frente2.jpg" alt="" class="image" />
+          <div class="image-data">
+            <span class="text">Titulo</span>
+            <h3>
+              algum texto legal
+            </h3>
+            <!--<a href="#" class="button">about</a>-->
           </div>
         </div>
-        <div class="container">
-          <ol class="carousel-indicators">
-            <li data-target="#customCarousel1" data-slide-to="0" class="active"></li>
-            <li data-target="#customCarousel1" data-slide-to="1"></li>
-            <li data-target="#customCarousel1" data-slide-to="2"></li>
-          </ol>
+        <div class="slide swiper-slide">
+          <image src="images/foto_frente4.jpg" alt="" class="image" />
+          <div class="image-data">
+            <span class="text">Titulo</span>
+            <h3>
+              algum texto legal
+            </h3>
+            <!--<a href="#" class="button">about</a>-->
+          </div>
+        </div>
+        <div class="slide swiper-slide">
+          <image src="images/foto_frente8.jpg" alt="" class="image" />
+          <div class="image-data">
+            <span class="text">Titulo</span>
+            <h3>
+              algum texto
+            </h3>
+            <!--<a href="#" class="button">about</a>-->
+          </div>
         </div>
       </div>
-
+      <div class="swiper-button-next nav-btn"></div>
+      <div class="swiper-button-prev nav-btn"></div>
+      <div class="swiper-pagination"></div>
     </section>
+
+    <!--swipe JS-->
+    <script src="js/swiper-bundle.min.js"></script>
+  
+      <!-- Initialize Swiper -->
+      <script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 1,
+          spaceBetween: 30,
+          loop: true,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+      </script>
     <!-- end slider section -->
   </div>
 
   <!-- offer section -->
-
   <section class="offer_section layout_padding-bottom">
     <div class="offer_container">
       <div class="container ">
@@ -401,11 +361,9 @@
       </div>
     </div>
   </section>
-
   <!-- end offer section -->
 
   <!-- food section -->
-
   <section class="food_section layout_padding-bottom">
     <div class="container">
       <div class="heading_container heading_center">
@@ -413,12 +371,9 @@
           Cardápio
         </h2>
       </div>
-
       <ul class="filters_menu">
         <li class="active" id="novi" data-filter=".novidades">Novidades</li>
       </ul>
-
-
       <div class="filters-content">
         <div class="row grid">
           <div class="col-sm-6 col-lg-4 all novidades">
@@ -669,14 +624,11 @@
       </div>
     </div>
   </section>
-
   <!-- end food section -->
 
   <!-- about section -->
-
   <section class="about_section layout_padding">
     <div class="container  ">
-
       <div class="row">
         <div class="col-md-6 ">
           <div class="img-box">
@@ -702,12 +654,10 @@
       </div>
     </div>
   </section>
-
   <!-- end about section -->
 
   <!-- book section -->
   <section class="book_section layout_padding">
-
     <div class="container">
       <div class="heading_container heading_center psudo_white_primary mb_45">
         <h2>
@@ -720,13 +670,11 @@
           width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
-
     </div>
   </section>
   <!-- end book section -->
 
   <!-- client section -->
-
   <section class="client_section layout_padding-bottom">
     <div class="container">
       <div class="heading_container heading_center psudo_white_primary mb_45">
@@ -734,7 +682,6 @@
           Nossos clientes
         </h2>
       </div>
-
       <div class="carousel-wrap row ">
         <div class="owl-carousel client_owl-carousel">
           <div class="item">
@@ -783,7 +730,6 @@
                   Sabrina Carvalho
                 </h6>
                 <p>
-                  
                 </p><br>
               </div>
               <div class="img-box">
@@ -795,7 +741,6 @@
       </div>
     </div>
   </section>
-
   <!-- end client section -->
 
   <!-- footer section -->
@@ -863,16 +808,16 @@
             Horários de funcionamento
           </h4>
           <p>
-            <b>Segunda-feira</b><br>11h às 19h
+            Segunda-feira<br>11h às 19h
+          </p>  
+          <p>
+            Terça e Quarta<br>9h às 22h
           </p>
           <p>
-            <b>Terça e Quarta</b><br>9h às 22h
+            Quinta a Sábado<br>9h às 23h
           </p>
           <p>
-            <b>Quinta a Sábado</b><br>9h às 23h
-          </p>
-          <p>
-            <b>Domingo</b><br>8h30 às 16h
+            Domingo<br>8h30 às 16h
           </p>
         </div>
       </div>
